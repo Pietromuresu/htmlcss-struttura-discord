@@ -89,14 +89,14 @@ nav ul li a{
 
 .immagine {
     
-    width: 75%;
+    width: 55%;
     height: 300px;
     background-color:darkgreen;
 }
 
  .testo {
  
-  width: 25% ;
+  width: 45% ;
   height: 300px;
   background-color: coral;
 }
@@ -106,19 +106,94 @@ nav ul li a{
 
 .section-5 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: darkmagenta;
   padding: 20px;
   
 }
 
-.contenuto {
-  height: 600px;
+.intestazione {
+  height: 100px;
+  width: 70%;
+
+  margin-bottom: 10px;
+  background-color: brown;
+}
+.immagine-2 {
+  height: 300px;
+  width: 70%;
+
+  margin-bottom: 10px;
+  background-color: brown;
+}
+.scarica{
+  height: 100px;
   width: 70%;
 
   background-color: brown;
+
+}
+
+
+
+/* Footer */
+footer {
+  height: 400px;
+  background-color: forestgreen;
+  padding: 15px;
+}
+
+.primo-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 15%;
+  margin-bottom: 30px;
+  border: 2px dotted black ;
 }
 
 
 
 
+.grande-footer {
+
+  height: 300px;
+  width: 30%;
+  background-color: crimson;
+  
+  border: 2px dotted black ;
+}
+
+.link-aside-footer {
+  height: 300px;
+  width: 17.5%;
+  background-color: crimson;
+
+  border: 2px dotted white ;
+  
+}
+
+
+.second-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 50px;
+  margin: 0px 15%;
+  background-color: aquamarine;
+}
+
+.logo-footer {
+  background-color: beige;
+  border: 2px dotted black;
+}
+
+
+.bottone-footer {
+  background-color: beige;
+  border: 2px dotted black;
+
+}
