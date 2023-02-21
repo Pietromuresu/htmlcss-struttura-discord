@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+hr{
+  margin: 20px 15%;
+
+}
+
 /* Header */
 
 body {
@@ -28,8 +33,6 @@ border: 2px dotted black;
 nav ul {
   display: flex;
   flex-wrap: wrap;
-
-  
 }
 
 nav ul li {
@@ -49,16 +52,22 @@ nav ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
   background-color: red;
+  text-align: center;
+  
 }
+
 
 .intro {
   border: 2px dotted black;
   height: 300px;
   width: 600px;
   background-color: beige;
+  padding: 5%;
 }
+
+
 
 /* sections 2-3-4 */
 
@@ -67,12 +76,14 @@ nav ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px; 
+  min-height: 500px; 
   margin: 0 auto;
+  
 }
 
 .section-3{
   background-color: blueviolet;
+
 }
 
 .section-4{
@@ -82,6 +93,7 @@ nav ul li a{
 
 .flexer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 80%;
   margin-bottom: 15px;
@@ -96,12 +108,14 @@ nav ul li a{
 }
 
  .testo {
- 
+  display: flex;
+  flex-wrap: wrap;
   width: 45% ;
   height: 300px;
   background-color: coral;
+  padding:  5%;
 }
-
+  
 
 /* section 5 */
 
@@ -111,6 +125,8 @@ nav ul li a{
   align-items: center;
   background-color: darkmagenta;
   padding: 20px;
+  text-align: center;
+  vertical-align: middle;
   
 }
 
@@ -122,6 +138,7 @@ nav ul li a{
   background-color: brown;
 }
 .immagine-2 {
+  align-items: center ;
   height: 300px;
   width: 70%;
 
@@ -129,12 +146,17 @@ nav ul li a{
   background-color: brown;
 }
 .scarica{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100px;
   width: 70%;
-
+  
+  
   background-color: brown;
 
 }
+
 
 
 
@@ -145,14 +167,15 @@ footer {
   padding: 15px;
 }
 
+
 .primo-footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0px 15%;
-  margin-bottom: 30px;
   border: 2px dotted black ;
 }
+
 
 
 
@@ -198,3 +221,28 @@ footer {
   border: 2px dotted black;
 
 }
+
+#language {
+  margin-top: 20px;
+}
+
+.icons-footer{
+  margin-top: 20px;
+}
+
+.icons-footer a {
+  text-decoration: none;
+  color: white;
+} 
+
+
+.link-aside-footer ul{
+  list-style: none;
+}
+
+
+.link-aside-footer ul li a{
+  text-decoration: none;
+  color: azure;
+}
+
